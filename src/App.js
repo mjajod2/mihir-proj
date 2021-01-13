@@ -76,25 +76,25 @@ class App extends React.Component {
               <button className="about" onClick={this.showP}>Projects</button>
                 <Rodal visible={this.state.visibleP} onClose={this.hideP}>
                   <span className="hah"> During my time as a CS student at UIC, i've had the chance to work on 
-                  many interesting projects, which can be found on my <a className = "linkstyle" href = "https://github.com/mjajod2" target="_blank"
+                  many interesting projects, which can be found on my <a className = "linkstyle" href = "https://github.com/mjajod2" target="_blank" rel="noreferrer"
                   style = {{textDecoration :'none', fontSize: '18px'}}>GitHub</a><br/> Here is a list the ones  
                   I enjoyed doing the most:</span>
                   <ul className="hah">
-                    <li><a className="linkstyle2" href="https://github.com/mjajod2/Openstreet-Maps" target="_blank">Openstreet Maps</a></li>
-                    <li><a className="linkstyle2" href="https://github.com/mjajod2/File-Compression" target="_blank">Huffman Coding</a></li>
-                    <li><a className="linkstyle2" href="https://github.com/mjajod2/Autocomplete" target="_blank">Autocomplete Text</a></li>
+                    <li><a className="linkstyle2" href="https://github.com/mjajod2/Openstreet-Maps" target="_blank" rel="noreferrer">Openstreet Maps</a></li>
+                    <li><a className="linkstyle2" href="https://github.com/mjajod2/File-Compression" target="_blank" rel="noreferrer">Huffman Coding</a></li>
+                    <li><a className="linkstyle2" href="https://github.com/mjajod2/Autocomplete" target="_blank" rel="noreferrer">Autocomplete Text</a></li>
                   </ul>
                 </Rodal>
               <button className="about" onClick={this.showC}>Contact</button>
                 <Rodal visible={this.state.visibleC} onClose={this.hideC}>
                   <span className="hah">click on any of these links to check out my socials!</span><br/><br/><br/><br/>
-                  <a className = "linkstyle" href = "https://www.linkedin.com/in/mihir-jajodia-ba8050173/" target="_blank"
+                  <a className = "linkstyle" href = "https://www.linkedin.com/in/mihir-jajodia-ba8050173/" target="_blank" rel="noreferrer"
                   style = {{textDecoration :'none'}}>LinkedIn</a><br/><br/><br/><br/>
-                  <a className="linkstyle" href="mailto: mjajod2@uic.edu"target="_blank"
+                  <a className="linkstyle" href="mailto: mjajod2@uic.edu"target="_blank" rel="noreferrer"
                   style = {{textDecoration :'none'}}>Email</a><br/><br/><br/><br/>
-                  <a className = "linkstyle" href = "https://github.com/mjajod2" target="_blank"
+                  <a className = "linkstyle" href = "https://github.com/mjajod2" target="_blank" rel="noreferrer"
                   style = {{textDecoration :'none'}}>GitHub</a><br/><br/><br/><br/>
-                  <a className = "linkstyle" href = "https://www.instagram.com/mihirjajodia/" target="_blank"
+                  <a className = "linkstyle" href = "https://www.instagram.com/mihirjajodia/" target="_blank" rel="noreferrer"
                   style = {{textDecoration :'none'}}>Instagram</a><br/><br/><br/><br/>
                 </Rodal>
             </div>
